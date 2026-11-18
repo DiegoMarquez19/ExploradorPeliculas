@@ -6,7 +6,7 @@ export default function Navbar({ view, onViewChange, favoritesCount, query, onQu
     <header className="navbar glass">
       <div className="navbar__brand">
         <span className="navbar__logo"><FilmIcon /></span>
-        <span className="navbar__name">Cinespot</span>
+        <span className="navbar__name">CinePolito</span>
       </div>
 
       {view === "explorar" && <SearchBar value={query} onChange={onQueryChange} />}

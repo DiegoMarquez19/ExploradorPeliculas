@@ -1,3 +1,5 @@
+import filmIconUrl from "../assets/Gemini_Generated_Image_amdubaamdubaamdu.jpg";
+
 const base = {
   width: 20, height: 20, viewBox: "0 0 24 24", fill: "none",
   stroke: "currentColor", strokeWidth: 1.8,
@@ -19,8 +21,5 @@ export const CloseIcon = () => (
 );
 
 export const FilmIcon = () => (
-  <svg {...base}>
-    <rect x="3" y="4" width="18" height="16" rx="3" />
-    <path d="M8 4v16M16 4v16M3 9h5M16 9h5M3 15h5M16 15h5" />
-  </svg>
+  <img className="film-icon" src={filmIconUrl} alt="" aria-hidden="true" />
 );
